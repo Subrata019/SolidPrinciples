@@ -7,7 +7,7 @@
             if (paymentType == "CreditCard") Console.WriteLine("Processing credit card payment...");
             else if (paymentType == "PayPal") Console.WriteLine("Processing PayPal payment...");
             else if (paymentType == "Bitcoin") Console.WriteLine("Processing Bitcoin payment...");
-            Console.WriteLine("Unknown payment method.");
+            else Console.WriteLine("Unknown payment method.");
         }
     }
 }
